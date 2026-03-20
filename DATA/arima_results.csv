@@ -1,0 +1,6 @@
+Outcome,MAE,RMSE
+Average_Life_Expectancy_(Years)_AllRaces_BothSexes,0.3313919352242865,0.47045200507027607
+Age-adjusted_Death_Rate_AllRaces_BothSexes,18.14047614968772,25.52369486987089
+All_Families_Below_Poverty_(With_and_Without_Children)_Percent,1.1303233842705636,1.3694042892677687
+Male_64_and_Over_Below_Poverty_Percent,1.1059628461912274,1.3076223354965173
+Female_64_and_Over_Below_Poverty_Percent,0.6291468747195647,0.8560228838259177

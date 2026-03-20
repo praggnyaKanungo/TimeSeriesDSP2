@@ -9,7 +9,6 @@ output_file = os.path.join(DATA_DIR, "health_outcomes_by_year.csv")
 # Load dataset
 df = pd.read_csv(input_file)
 
-# Rename columns to simpler names
 df = df.rename(columns={
     "Average Life Expectancy (Years)": "life_expectancy",
     "Age-adjusted Death Rate": "death_rate"
@@ -34,7 +33,6 @@ df_wide.columns = [
 # Reset index so Year becomes a column again
 df_wide = df_wide.reset_index()
 
-# Optional: keep only years after 1970
 df_wide = df_wide[df_wide["Year"] >= 1970]
 
 # Save cleaned dataset
